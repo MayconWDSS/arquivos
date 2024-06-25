@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor    : Willian Jefferson Santos Costa 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2024
+Var
+valor: inteiro
+
+
+Inicio
+escreva ("informe um numero: ")
+leia (valor)
+
+
+se valor > 0 entao
+escreval ("Você ganhou", valor , " maior que zero")
+senao
+ escreval ("Você perdeu!", valor, " menor que zero")
+fimse
+
+Fimalgoritmo
