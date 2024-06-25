@@ -1,0 +1,21 @@
+algoritmo "Tabuada do nove"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor    : Willian Jefferson Santos Costa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maycon Willy Dos Santos Silva
+// Data atual  : 05/04/2024
+
+var
+r, n, m: inteiro
+
+inicio
+ 
+escreval ("Tabuada do nove")
+para m de 1 ate 10 faca
+   n <- 9
+   r <- n * m
+ escreval (m, " x", n, " =", r)
+
+fimpara
+
+fimalgoritmo
