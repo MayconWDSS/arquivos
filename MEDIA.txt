@@ -1,0 +1,25 @@
+Algoritmo "Media"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor    : Willian Jefferson Santos Costa 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maycon Willy dos Santos Silva
+// Data atual  : 03/04/2024
+Var
+n1, n2, nf, media: real
+
+
+Inicio
+leia (n1, n2, nf)
+
+media <- (n1 + n2 + nf) /3.0
+
+se (media >= 7.0) entao
+escreva ("Aluno aprovado")
+fimse
+
+se (media <= 7.0) entao
+escreva ("Aluno rerovado")
+fimse
+
+escreval ("Media", media)
+Fimalgoritmo
